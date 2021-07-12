@@ -29,5 +29,49 @@
 //     }
 //   }
 
+// function closeCompare(a,b,margin = 0) {
+//     if (a - b > margin) {
+//         return 1;
+//     } else if (a - b < 0) {
+//         return -1;
+//     } else {
+//         return 0;
+//     }
+// }
 
+// function DNA(string) {
+//    const splitDNA = string.split('');
+//    let newDNA = splitDNA.map(item => {
+//         if (item === 'A') {
+//             return 'T';
+//         } else if (item === 'T') {
+//             return 'A';
+//         } else if (item === 'C') {
+//             return 'G';
+//         } else if (item === 'G') {
+//             return 'C';
+//         } else {
+//             return 'Такого днк не существует!';
+//         }
+//    })
+//    return newDNA.join('');
+// }
+
+// function numArr(n,x) {
+//     var z = []
+//     for (var i = 1; i <= n; i++) {
+//         z.push(x* i);
+//     }
+//     return z
+// }
+
+// function arr1(string) {
+//     let arr2 = string.split('').reverse();
+//     return arr2;
+// }
+
+// function addArrays(array1, array2) {
+//     if(array1.length != array2.length) throw new Error();
+//     return array1.map((a,i) => array1[i] + array2[i]);
+// }
 
