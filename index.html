@@ -5,9 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <main class="main">
+    <section class="myCart">
+      <div class="container">
+        <div class="wrapper">
+          <ul class="card__list"></ul>
+          <div class="cart__wrapper">
+            <div class="cart">
+              <div class="cart__header">
+                <div class="cart__icon">
+                  <img src="https://img.icons8.com/ios/20/000000/shopping-cart.png"/>
+                </div>
+                <button class="cart__close-btn"></button>
+              </div>
+              <div class="cart__body">
+                <ul class="cart__list"></ul>
+                <div class="cart__footer">
+                  <button class="card__btn cart__btn--clear">Очистить корзину</button>
+                  <button class="card__btn cart__btn--buy">Оформить заказ</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <script src="script/app.js"></script>
+  <script src="script/card.js"></script>
+  <script src="script/cart.js"></script>
+  <script src="db.json"></script>
 </body>
 </html>
